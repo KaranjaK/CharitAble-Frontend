@@ -18,6 +18,16 @@ function Footer(prop){
   )
 }
 
+const days = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+]
+
 function App() {
   return (
     <div className="App">

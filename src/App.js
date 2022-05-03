@@ -1,20 +1,20 @@
 import './App.css';
 
-function Header(prop){
+function Header(props){
   return(
-    <h1>It gonna be a {prop.adjective} day!!!</h1>
+    <h1>Charitable</h1>
   )
 }
 
-function Main(prop){
+function Main(props){
   return(
-    <p>We are going to have {prop.name} today.</p>
+    <section></section>
   )
 }
 
-function Footer(prop){
+function Footer(props){
   return(
-    <p>Copyright {prop.year}</p>
+    <p>Copyright {props.year}</p>
   )
 }
 
@@ -28,11 +28,13 @@ const days = [
   'Saturday',
 ]
 
+const dayObjects = days.map((day, i) => ({id: i, title: day}));
+
 function App() {
   return (
     <div className="App">
       <Header adjective='awesome'/>
-      <Main name='a blast'/>
+      <Main name='a blast' days={dayObjects}/>
       <Footer year={new Date().getFullYear()}/>
       
     </div>

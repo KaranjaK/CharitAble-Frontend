@@ -1,10 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet } from "react-router-dom";
-import background from "../images/background.jpg";
-
-
-// import '//Login.css'
+import background from "../../assets/images/background.jpg";
+import "./Login.css"
 const Login = ()=>{return(
   <>
 <div className="overlay" style={{ backgroundImage: `url(${background})` }}>
@@ -47,15 +45,7 @@ const Login = ()=>{return(
       </form>
 
 </div>
-<style>{"\
-        .overlay{\
-          color:white;\
-        padding-left:500px;\
-        padding-top:50px;\
-        background: rgba(0, 0, 0, .7);\
-        height:80vh;\
-        }\
-      "}</style>
+
       <Outlet />
 </>
 )}

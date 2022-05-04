@@ -1,0 +1,196 @@
+
+.enclose{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-evenly;
+    }
+    .brand{
+        font-family: 'Roboto', sans-serif;
+    }
+    .Navbar{
+      display:flex;
+      justify-content: space-around;
+    }
+    .Navbar li{
+    list-style:none;
+    text-decoration: none;
+    color: #3D5476;
+    }
+    .btns{
+        display: flex;
+    }
+    .Navbar ul {
+      color: #3D5476;
+    }
+    
+    .overlay{
+    margin-top:25px;
+    padding-top: 150px;
+    height:70vh;
+    width:280vh;
+    color:white;
+
+    }
+    .one{
+      background-color:#F15132;
+      border:none;
+      margin-right:15px;
+      height: 33px;
+      width: 87px;
+    }
+    .two{
+      color:#F15132;
+      border:none;
+      height: 45px;
+      width: 105px;
+    }
+    .define{
+      color: #3D5476;;
+      margin-top:50px;
+      display:flex;
+      justify-content:space-evenly;
+      padding-bottom: 30px;
+    }
+    .define h3{
+        padding-bottom: 15px;
+    }
+    .parag h2{
+      color:#F15132;
+      padding-bottom:10px;
+      }
+      .four{
+        background-color:#F15132;
+        color: white;
+        border:none;
+        margin-right:15px;
+        height: 45px;
+        width: 105px;
+      }
+      .three{
+        background-color:#3D5476;
+        border:none;
+        height: 33px;
+        width: 87px;
+      }
+      .imag2{
+        height:325px;
+        width:500px;
+      }
+      .lines{
+        color:#3D5476;
+        text-align: center;
+        padding-bottom: 30px;
+      }
+      .first{
+        color:#F15132;
+ 
+      }
+      
+      .set,.sets{
+          display: flex;
+          justify-content: space-evenly;
+          padding-bottom: 30px;
+          color:#3D5476;
+      }
+      .icon{
+          margin-left: 50px;
+          width: 75px;
+          height: 50%;
+          color:#F15132;
+
+      }
+      .hands{
+        height:88vh;   
+        
+      }
+      .enc{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 40px;
+
+      }
+      .beer{
+          
+          border: 1px solid rgb(199, 189, 189);
+          height: 250px;
+          width: 350px;
+          padding: 70px;
+          background-color: white;
+          color:#3D5476;
+
+      }
+     .but{
+         border: none;
+         color: white;
+         background-color:#3D5476 ;
+         height: 35px;
+     }
+     .sep{
+         text-align: center;
+         padding-bottom: 30px;
+         color:#3D5476;
+
+     }
+     .star{
+        margin-left: 15px;
+        color:#F15132;
+  
+     }
+     .rev{
+        margin-top: 20px;
+         display: flex;
+         justify-content: space-evenly;
+
+     }
+     .review h2{
+        color:#F15132;
+  
+     }
+     .review h3{
+        color:#3D5476;
+
+     }
+     .han{
+         text-align: center;
+     }
+     .review{
+        margin-top: 69px;
+        margin-bottom: 15px;
+     }
+     .blue{
+         text-align: center;
+         color: white;
+         background-color:#3D5476 ;
+         width: 330px;
+     }
+     .iconi{
+        color:#F15132;
+        width: 65px;
+          height: 40%;
+          padding-top: 70px;
+     }
+     .foot{
+         padding-top: 40px;
+         color: white;
+         background-color: #3D5476;
+         display: flex;
+         justify-content: space-evenly;
+     }
+     .iconif{
+        color:white;
+        width: 65px;
+          height: 40%;
+     }
+     .ico{
+         padding-right: 10px;
+         width: 35px;
+          height: 40%;
+     }
+     .con{
+        color:#F15132;
+        width: 35px;
+          height: 40%;
+     }
+     .main{
+        font-family: 'Adamina', serif;
+     }

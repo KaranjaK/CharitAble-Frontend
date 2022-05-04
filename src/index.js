@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import Home from './pages/Home';
-import Events from './pages/Events';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Login from './pages/Login';
+import Home from './pages/Home/Home';
+import Events from './pages/Events/Events';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Login from './pages/Login/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

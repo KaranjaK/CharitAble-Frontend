@@ -1,9 +1,8 @@
 import './App.css';
-import React, {useState} from 'react';
+import React from 'react';
 
 function App() {
 
-  const [emotions, setEmotions] = useState('Happy')
   return(
       <div className='App'>
        

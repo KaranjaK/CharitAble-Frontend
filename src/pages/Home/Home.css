@@ -38,6 +38,7 @@
       margin-right:15px;
       height: 33px;
       width: 87px;
+      color: white;
     }
     .two{
       color:#F15132;
@@ -72,6 +73,8 @@
         border:none;
         height: 33px;
         width: 87px;
+        color: white;
+
       }
       .imag2{
         height:325px;

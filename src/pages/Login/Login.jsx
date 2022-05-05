@@ -81,10 +81,10 @@ const Login = ()=>{return(
 
 </div>
 <div className="fot">
-  <h3>
+  <h5>
     NO ACCOUNT?
-  </h3>
-  <button>
+  </h5>
+  <button className="sign">
     SIGN UP
   </button>
 </div>

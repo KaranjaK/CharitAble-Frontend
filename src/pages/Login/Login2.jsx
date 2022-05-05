@@ -18,7 +18,7 @@ const Login = ()=>{return(
 <div className="over" >
     <form>
       <div className="icos">
-        <div className="ic1">
+      <div className="ic1">
           <a href="login">
           <BiDonateHeart className="icon" />
 
@@ -37,7 +37,7 @@ const Login = ()=>{return(
 
          <div className="smal">
          <p>
-         Hello Dear NGO,
+         Hello Estimeed Donor,
          </p>
          </div>
          <p>

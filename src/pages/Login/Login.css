@@ -22,6 +22,11 @@
     height: 150px;
     width: 200px;
     background-color: white;
+    box-shadow: 3px 3px 9px 0px rgba(131,115,115,0.75);
+  transition: all .2s;
+  }
+  .icon:hover {
+    transform: scale(1.04);
   }
   .icos{
     display: flex;

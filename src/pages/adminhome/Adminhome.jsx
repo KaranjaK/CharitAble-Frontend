@@ -8,6 +8,7 @@ export const Adminhome = () => {
     <div className='navbar'>
       <Navbar />
       <Sidebar />
+      <div className='na'></div>
     </div>
   )
 }

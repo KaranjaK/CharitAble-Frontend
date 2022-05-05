@@ -1,19 +1,50 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet } from "react-router-dom";
-import background from "../../assets/images/background.jpg";
-import "./Login.css"
+import "./Login.css";
+import { BiDonateHeart } from "react-icons/bi";
+import { FaHandsHelping } from "react-icons/fa";
+
 const Login = ()=>{return(
   <>
-<div className="overlay" style={{ backgroundImage: `url(${background})` }}>
+  <div className="head">
+    <h3>
+      Welcome Back
+    </h3>
+    <p>
+      Choose Account Type
+    </p>
+  </div>
+<div className="over" >
     <form>
-        <h3>Sign In</h3>
+      <div className="icos">
+        <div className="ic1">
+        <BiDonateHeart className="icon" />
+
+        </div>
+        <div className="ic2">
+        <FaHandsHelping className="icon" />
+
+        </div>
+      </div>
+<div className="slide">
+
+
+       
+         <div className="smal">
+         <p>
+         Hello Estimeed Donor,
+         </p>
+         </div>
+         <p>
+          Kindly provide the necessary details to Access your account
+       </p>
         <div className="col-md-4">
-          <label>Email address</label>
+          <label>Username/Email </label>
           <input
             type="email"
             className="form-control"
-            placeholder="Enter email"
+            placeholder="Enter username/email"
           />
         </div>
         <div className="col-md-4">
@@ -36,16 +67,27 @@ const Login = ()=>{return(
             </label>
           </div>
         </div>
-        <div className="col-md-4 d-grid">
+
+        <div className="col-md-4 d-flex ">
+        <button type="submit" className="btn btn-primary">
+            FORGOT?
+          </button> <br />
           <button type="submit" className="btn btn-primary">
-            Submit
+            LOG IN
           </button>
         </div>  
-           
+           </div>
       </form>
 
 </div>
-
+<div className="fot">
+  <h3>
+    NO ACCOUNT?
+  </h3>
+  <button>
+    SIGN UP
+  </button>
+</div>
       <Outlet />
 </>
 )}

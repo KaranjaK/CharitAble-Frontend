@@ -1,8 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import background from "../../assets/images/background.jpg";
-import partner from "../../assets/images/partner.jpg";
-
+import logo from "../../assets/images/logo.png";
+import charity from "../../assets/images/charity.jpg";
 import charity2 from "../../assets/images/charity2.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaFirstAid } from "react-icons/fa";
@@ -23,7 +22,6 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterSquare } from "react-icons/ai";
-import { FaHandshake } from "react-icons/fa";
 const Home = ()=>{
   return(
 <>
@@ -31,8 +29,10 @@ const Home = ()=>{
 <nav>
         <div className="enclose">
         <div className="brand">  
-         
-          <h3>  <FaHandshake  className="con"/> CHARITABLE</h3></div>
+        <img className="imag4" src={logo} alt='charity'/> 
+
+          {/* <h3>  <FaHandshake  className="con"/> CHARITABLE</h3> */}
+          </div>
         <div>
       
         <ul className="Navbar" >
@@ -64,14 +64,24 @@ const Home = ()=>{
         
       </nav>
 <section >
-    <div className="overlay" style={{ backgroundImage: `url(${background})`, width:"1500px",backgroundPosition:"center",backgroundSize:"cover",paddingTop:190,paddingLeft:85}} >
-        <h2>
+    <div className="overl" >
+        <h2 >
            Charity Begins At Home <br />But Should Not End There <br /> <br />
         </h2>
-        <p>
+        <div className="par">
+          <div className="p1">
+          <p>
             Touch a life today, miles away from home by donating. <br />
-            Lives worth changing, by your donations. <br />
+            Lives worth changing, by your donations. <br /> 
+
         </p>
+          </div>
+          <div className="p2">
+          <img className="imag5" src={charity} alt='charity'/> 
+
+          </div>
+        </div>
+        
         <div className="btns">
         <button className="four" >Donate Now</button> 
         <button className="two">Contact Us</button> <br /> <br />
@@ -137,7 +147,7 @@ const Home = ()=>{
         </div>
         </div>
         </div>
-        <div className="hands" style={{ backgroundImage: `url(${partner})`, width:"1500px",backgroundPosition:"center",backgroundSize:"cover",paddingTop:190,paddingLeft:85}} >
+        <div className="hands" >
             <div className="enc">
             <div className="beer">
              <BiDonateHeart className="icon" />

@@ -20,7 +20,7 @@ export const Sidebar = () => {
       </div>
       <hr />
       <div className='body'>
-        <ul>
+        <ul className='adminlist'>
           <p className="title">MAIN</p>
           <li>
             <DashboardIcon className='icon'/>
@@ -59,7 +59,7 @@ export const Sidebar = () => {
           </li>
           <p className="title">ADMIN</p>
           <li>
-            <AssignmentIndIcon className='icon'/>
+            <AssignmentIndIcon className='icona'/>
             <span>Profile</span>
           </li>
           <li>

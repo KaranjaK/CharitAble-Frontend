@@ -11,7 +11,7 @@
     height: 5rem;
 }
 /* Unordered List */
-ul{
+.sidebar ul{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -22,16 +22,15 @@ ul{
     margin-top: .5rem;
     margin-left: .5rem;
 }
-li{
+.sidebar li{
     display: flex;
     align-items: center;
-    padding: .3rem;
     cursor: pointer;
 }
-li:hover{
+.sidebar li:hover{
     background-color: #ece8ff;
 }
-.icon{
+.sidebar .icon{
     color:#F15132;
 }
 span{

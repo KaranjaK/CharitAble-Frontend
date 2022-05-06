@@ -20,6 +20,7 @@ ul{
     font-size: 1.2rem;
     color: grey;
     margin-top: .5rem;
+    margin-left: .5rem;
 }
 li{
     display: flex;

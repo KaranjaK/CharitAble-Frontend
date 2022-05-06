@@ -206,7 +206,7 @@ const Home = () => {
             <div className="beer">
               <FaHandsHelping className="icon" />
               <h4>
-                Be an NGO or Charity Org <br />
+                NGO or Charity Org. <br />
               </h4>
               <button className="but">Join Now</button>
             </div>

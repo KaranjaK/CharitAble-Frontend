@@ -59,7 +59,7 @@ export const Sidebar = () => {
           </li>
           <p className="title">ADMIN</p>
           <li>
-            <AssignmentIndIcon className='icona'/>
+            <AssignmentIndIcon className='icon'/>
             <span>Profile</span>
           </li>
           <li>

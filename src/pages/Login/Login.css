@@ -1,6 +1,5 @@
 .over {
   color: white;
-  padding-left: 450px;
   padding-top: 20px;
   height: 90vh;
   background: linear-gradient(0deg, rgba(101, 137, 179, 0.9), rgba(101, 137, 179, 0.8)), url(..//..//assets/images/background.jpg);
@@ -14,6 +13,7 @@
   color: white;
   width: 150px;
   margin-right: 20px;
+  border: none;
 }
 
 .head,
@@ -31,10 +31,10 @@
   align-items: center;
 }
 
-.icon {
+.Login .icon {
   height: 100px;
   width: 100px;
-  /* box-shadow: 3px 3px 9px 0px rgba(131, 115, 115, 0.75); */
+  color: #F15132;
   margin-left: 2rem;
   transition: all .2s;
 }
@@ -50,10 +50,15 @@ a:link {
 .icos {
   display: flex;
   margin-top: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide {
-  padding-left: 100px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .smal {

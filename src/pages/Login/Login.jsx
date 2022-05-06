@@ -16,13 +16,13 @@ const Login = () => {
         <form>
           <div className="icos">
             <div className="ic">
-              <a href="login">
+              <a href="login2">
                 <BiDonateHeart className="icon" />
                 <p>Donor</p>
               </a>
             </div>
             <div className="ic">
-              <a href="login2">
+              <a href="login">
                 <FaHandsHelping className="icon" />
                 <p>Charity Org.</p>
               </a>

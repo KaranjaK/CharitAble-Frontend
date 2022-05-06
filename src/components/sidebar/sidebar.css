@@ -1,0 +1,65 @@
+/* Entire Side Bar Styling */
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 10rem;
+    height: 100vh;
+    border-right: 0.1rem solid lightgray;
+}
+/* CharitAble Logo */
+.logo{
+    height: 5rem;
+}
+/* Unordered List */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 1.2rem;
+    color: grey;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #ece8ff;
+}
+.icon{
+    color:#F15132;
+}
+span{
+    font-family: Adamina;
+    margin-left: .5rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.colorOptions{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: .1rem solid darkblue;
+    cursor: pointer;
+    margin: .1rem;
+}
+.colorOptions:nth-child(1){
+    background-color: #3D5476;
+}
+.colorOptions:nth-child(2){
+    background-color: #F15132;
+}
+.colorOptions:nth-child(3){
+    background-color: black;
+}
+.colorOptions:nth-child(4){
+    background-color: blue;
+}

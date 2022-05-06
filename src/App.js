@@ -1,32 +1,24 @@
-import './App.css';
-
-function Header(prop){
-  return(
-    <h1>It gonna be a {prop.adjective} day!!!</h1>
-  )
-}
-
-function Main(prop){
-  return(
-    <p>We are going to have {prop.name} today.</p>
-  )
-}
-
-function Footer(prop){
-  return(
-    <p>Copyright {prop.year}</p>
-  )
-}
+import React from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom'
+import { Adminhome } from './pages/adminhome/Adminhome';
 
 function App() {
-  return (
-    <div className="App">
-      <Header adjective='awesome'/>
-      <Main name='a blast'/>
-      <Footer year={new Date().getFullYear()}/>
-      
-    </div>
-  );
+
+  return(
+      <div className='App'>
+        <Adminhome />
+        <BrowserRouter>
+          <Routes>
+
+          </Routes>
+        </BrowserRouter>
+      </div>
+
+ )
 }
 
 export default App;

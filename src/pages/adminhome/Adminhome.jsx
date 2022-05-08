@@ -2,11 +2,17 @@ import React from 'react'
 import './adminhome.css'
 import { Navbar } from '../../components/navbar/Navbar'
 import { Sidebar } from '../../components/sidebar/Sidebar'
+import { Widget } from '../../components/widget/Widget'
 
-export const Adminhome = () => {
+const Adminhome = () => {
   return (
-    <div className='navbar'>
+    <div className='admin'>
       <Sidebar />
+      <Navbar />
+      <div className="body">
+        <Widget />
+      </div>
     </div>
   )
 }
+export default Adminhome

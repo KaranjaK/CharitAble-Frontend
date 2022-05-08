@@ -1,219 +1,266 @@
+.enclose {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
-.enclose{
-    margin-top:23px;
-    display:flex;
-    justify-content:space-evenly;
-    }
-    
-    .Navbar{
-      display:flex;
-      justify-content: space-around;
-    }
-    .Navbar li{
-    list-style:none;
-    text-decoration: none;
-    color: #3D5476;
-    }
-    .btns{
-        display: flex;
-        
-    }
-    .Navbar ul {
-      color: #3D5476;
-    }
-    
-    .overl{
-    background: linear-gradient(0deg, rgba(101, 137, 179, 0.9),rgba(101, 137, 179, 0.8)), url(..//..//assets/images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top:5px;
-    padding-top: 190px;
-    height:78vh;
-    color:white;
-    padding-left: 180px;
-    }
-    .one{
-      background-color:#F15132;
-      border:none;
-      margin-right:15px;
-      height: 33px;
-      width: 87px;
-      color: white;
-    }
-    .two{
-      color:#F15132;
-      border:none;
-      height: 45px;
-      width: 105px;
-    }
-    .define{
-      color: #3D5476;;
-      margin-top:50px;
-      display:flex;
-      justify-content:space-evenly;
-      padding-bottom: 30px;
-    }
-    .define h3{
-        padding-bottom: 15px;
-    }
-    .parag h2{
-      color:#F15132;
-      padding-bottom:10px;
-      }
-      .four{
-        background-color:#F15132;
-        color: white;
-        border:none;
-        margin-right:15px;
-        height: 45px;
-        width: 105px;
-      }
-      .three{
-        background-color:#3D5476;
-        border:none;
-        height: 33px;
-        width: 87px;
-        color: white;
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+}
 
-      }
-      .imag2{
-        height:325px;
-        width:500px;
-      }
-      .lines{
-        color:#3D5476;
-        text-align: center;
-        padding-bottom: 30px;
-      }
-      .first{
-        color:#F15132;
- 
-      }
-      
-      .set,.sets{
-          display: flex;
-          justify-content: space-evenly;
-          padding-bottom: 30px;
-          color:#3D5476;
-      }
-      .icon{
-          margin-left: 50px;
-          width: 75px;
-          height: 50%;
-          color:#F15132;
+.Navbar li {
+  list-style: none;
+  text-decoration: none;
+  color: #3D5476;
+}
 
-      }
-      .hands{
-        height:78vh;  
-        color: white;
-        padding-top: 90px; 
-        background: linear-gradient(0deg, rgba(101, 137, 179, 0.9),rgba(101, 137, 179, 0.8)), url(..//..//assets/images/partner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .enc{
-        display: flex;
-        justify-content: space-around;
-        padding-bottom: 40px;
+.btns {
+  display: flex;
 
-      }
-      .imag5{
-        height: 155px;
-        clip-path: circle();   
-       
-      }
-      .par{
-        display: flex;
-        
-      }
-      .pa1{
-        margin-left: 70px;
-      }
-      .beer{
-          
-          border: 1px solid rgb(199, 189, 189);
-          height: 250px;
-          width: 350px;
-          padding: 70px;
-          background-color: white;
-          color:#3D5476;
+}
 
-      }
-     .but{
-         border: none;
-         color: white;
-         background-color:#3D5476 ;
-         height: 35px;
-     }
-     .sep{
-         text-align: center;
-         padding-bottom: 30px;
-         color:white;
+.Navbar ul {
+  color: #3D5476;
+}
 
-     }
-     .star{
-        margin-left: 15px;
-        color:#F15132;
-  
-     }
-     .rev{
-        margin-top: 20px;
-         display: flex;
-         justify-content: space-evenly;
+.overl {
+  background: linear-gradient(0deg, rgba(101, 137, 179, 0.9), rgba(101, 137, 179, 0.8)), url(..//..//assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5px;
+  padding-top: 190px;
+  height: 78vh;
+  color: white;
+  padding-left: 180px;
+}
 
-     }
-     .review h2{
-        color:#F15132;
-  
-     }
-     .review h3{
-        color:#3D5476;
+.define {
+  color: #3D5476;
+  ;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
 
-     }
-     .han{
-         text-align: center;
-     }
-     .review{
-        margin-top: 69px;
-        margin-bottom: 15px;
-     }
-     .blue{
-         text-align: center;
-         color: white;
-         background-color:#3D5476 ;
-         width: 330px;
-     }
-     .iconi{
-        color:#F15132;
-        width: 65px;
-          height: 40%;
-          padding-top: 70px;
-     }
-     .foot{
-         padding-top: 40px;
-         color: white;
-         background-color: #3D5476;
-         display: flex;
-         justify-content: space-evenly;
-     }
-     .iconif{
-        color:white;
-        width: 65px;
-          height: 40%;
-     }
-     .ico{
-         padding-right: 10px;
-         width: 35px;
-          height: 40%;
-     }
-     .con{
-        color:#F15132;
-        width: 35px;
-          height: 40%;
-     }
-     .main{
-        font-family: 'Adamina', serif;
-     }
-     .imag4{
-       height: 115px;
-     }
+.define h3 {
+  padding-bottom: 15px;
+}
+
+.parag h2 {
+  color: #F15132;
+  padding-bottom: 10px;
+}
+
+.one {
+  background-color: #F15132;
+  border: none;
+  margin-right: 15px;
+  height: 33px;
+  width: 87px;
+  color: white;
+}
+
+.two {
+  color: #F15132;
+  border: none;
+  height: 50px;
+  width: 150px;
+}
+.four {
+  background-color: #F15132;
+  color: white;
+  border: none;
+  margin-right: 15px;
+  height: 50px;
+  width: 130px;
+}
+
+.three {
+  background-color: #3D5476;
+  border: none;
+  height: 33px;
+  width: 87px;
+  color: white;
+
+}
+
+.imag2 {
+  height: 325px;
+  width: 500px;
+}
+
+.lines {
+  color: #3D5476;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.first {
+  color: #F15132;
+
+}
+
+.set,
+.sets {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  color: #3D5476;
+}
+.set h5, .sets h5{
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .icon{
+  color: #F15132;
+  height: 6rem;
+  width: 5rem;
+}
+.hands {
+  height: 90vh;
+  color: white;
+  padding-top: 50px;
+  background: linear-gradient(0deg, rgba(101, 137, 179, 0.9), rgba(101, 137, 179, 0.8)), url(..//..//assets/images/partner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.enc {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.imag5 {
+  margin-top: -200px;
+  margin-left: 100px;
+  height: 300px;
+  clip-path: circle();
+}
+
+.par {
+  display: flex;
+
+}
+
+.pa1 {
+  margin-left: 70px;
+}
+
+.beer {
+  border: 1px solid rgb(199, 189, 189);
+  height: 250px;
+  width: 350px;
+  padding: 70px;
+  background-color: white;
+  color: #3D5476;
+  padding-top: 2rem;
+  padding-left: 70px;
+  text-align: center;
+}
+
+.but {
+  border: none;
+  color: white;
+  background-color: #3D5476;
+  height: 35px;
+}
+
+.sep {
+  text-align: center;
+  padding-bottom: 30px;
+  color: white;
+
+}
+.call .icon{
+  background-color: white;
+  padding: 20px;
+  clip-path: circle();
+  margin-bottom: 20px;
+  width: 5rem;
+}
+.star {
+  margin-left: 15px;
+  color: #F15132;
+
+}
+
+.rev {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.review h2 {
+  color: #F15132;
+
+}
+
+.review h3 {
+  color: #3D5476;
+
+}
+
+.han {
+  text-align: center;
+}
+
+.review {
+  margin-top: 69px;
+  margin-bottom: 15px;
+}
+
+.blue {
+  text-align: center;
+  color: white;
+  background-color: #3D5476;
+  width: 330px;
+}
+
+.iconi {
+  color: #F15132;
+  width: 65px;
+  height: 40%;
+  padding-top: 70px;
+}
+
+.foot {
+  padding-top: 40px;
+  color: white;
+  background-color: #3D5476;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconif {
+  color: white;
+  width: 65px;
+  height: 40%;
+}
+
+.ico {
+  padding-right: 10px;
+  width: 35px;
+  height: 40%;
+}
+
+.con {
+  color: #F15132;
+  width: 35px;
+  height: 40%;
+}
+
+.main {
+  font-family: 'Adamina', serif;
+}
+
+.imag4 {
+  height: 115px;
+}

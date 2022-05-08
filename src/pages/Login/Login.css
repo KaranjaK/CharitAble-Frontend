@@ -29,6 +29,8 @@
   margin: 2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  font-family: Adamina;
 }
 
 .Login .icon {
@@ -36,7 +38,7 @@
   width: 100px;
   color: #F15132;
   margin-left: 2rem;
-  transition: all .2s;
+  transition: all .5s;
 }
 .icon:hover {
   transform: scale(1.04);

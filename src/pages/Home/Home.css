@@ -109,9 +109,17 @@
   padding-bottom: 30px;
   color: #3D5476;
 }
+.set h5, .sets h5{
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .home .icon{
   color: #F15132;
   height: 6rem;
+  width: 5rem;
 }
 .hands {
   height: 90vh;
@@ -127,7 +135,6 @@
   justify-content: space-around;
   padding-bottom: 40px;
   align-items: center;
-
 }
 
 .imag5 {
@@ -176,6 +183,7 @@
   padding: 20px;
   clip-path: circle();
   margin-bottom: 20px;
+  width: 5rem;
 }
 .star {
   margin-left: 15px;

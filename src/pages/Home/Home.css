@@ -7,17 +7,23 @@
 .Navbar {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  font-family: Adamina;
+  font-size: 1.1rem;
 }
 
 .Navbar li {
   list-style: none;
   text-decoration: none;
+  padding-right: 42px;
   color: #3D5476;
+  position: relative;
 }
 
 .btns {
   display: flex;
-
+  margin-left: 4rem;
+  padding-left: 4rem;
 }
 
 .Navbar ul {
@@ -29,10 +35,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 5px;
-  padding-top: 190px;
+  padding-top: 140px;
   height: 78vh;
   color: white;
-  padding-left: 180px;
+  padding-left: 150px;
+}
+
+.overl h2{
+  font-family: Roboto;
+  font-size: 3rem;
+} 
+
+.p1 {
+  font-family: Adamina;
+  font-size: 1.3rem;
+  margin-top: -2rem;
 }
 
 .define {
@@ -51,8 +68,17 @@
 .parag h2 {
   color: #F15132;
   padding-bottom: 10px;
+  font-family: Roboto;
 }
 
+.parag h3{
+  font-family: Roboto;
+  font-size: 2rem;
+}
+.parag p{
+  font-family: Adamina;
+  font-size: larger;
+}
 .one {
   background-color: #F15132;
   border: none;
@@ -99,7 +125,17 @@
 
 .first {
   color: #F15132;
+  font-family: Roboto;
+  margin-top: 2rem;
+}
 
+.lines h2{
+  font-family: Roboto;
+}
+
+.lines p{
+  font-family: Adamina;
+  font-size: 1.5rem;
 }
 
 .set,
@@ -135,6 +171,7 @@
   justify-content: space-around;
   padding-bottom: 40px;
   align-items: center;
+  font-family: Roboto;
 }
 
 .imag5 {
@@ -177,6 +214,14 @@
   padding-bottom: 30px;
   color: white;
 
+}
+.sep p{
+  font-family: Adamina;
+  font-size: 1.5rem;
+}
+.sep h3{
+  font-family: Roboto;
+  font-size: 2rem;
 }
 .call .icon{
   background-color: white;

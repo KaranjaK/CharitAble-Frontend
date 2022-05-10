@@ -23,7 +23,6 @@
 .link{
     width: max-content;
     font-size: 1rem;
-    border-bottom: .1rem solid gray;
     cursor: pointer;
 }
 .tally{

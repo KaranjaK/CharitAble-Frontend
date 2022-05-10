@@ -34,11 +34,11 @@ const Login = () => {
             </div>
             <p>Kindly provide the necessary details to Access your account</p>
             <div className="col-md-4">
-              <label>Username/Email </label>
+              <label>Email </label>
               <input
                 type="email"
                 className="form-control"
-                placeholder="Enter username/email"
+                placeholder="Enter your email"
               />
             </div>
             <div className="col-md-4">
@@ -46,7 +46,7 @@ const Login = () => {
               <input
                 type="password"
                 className="form-control"
-                placeholder="Enter password"
+                placeholder="Enter your password"
               />
             </div>
             <div className="col-md-4">

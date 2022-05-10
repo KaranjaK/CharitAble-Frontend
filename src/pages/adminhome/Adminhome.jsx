@@ -8,9 +8,14 @@ const Adminhome = () => {
   return (
     <div className='admin'>
       <Sidebar />
-      <Navbar />
       <div className="body">
-        <Widget />
+        <Navbar />
+        <div className="widgets">
+          <Widget type='users'/>
+          <Widget type='requests'/>
+          <Widget type='amounts'/>
+          <Widget type='ratings'/>
+        </div>
       </div>
     </div>
   )

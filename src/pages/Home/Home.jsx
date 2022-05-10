@@ -35,11 +35,6 @@ const Home = () => {
               <ul className="Navbar">
                 <li>
                   <Link
-                    style={{
-                      paddingRight: 42,
-                      textDecoration: "none",
-                      color: "#3D5476",
-                    }}
                     to=""
                   >
                     Home
@@ -47,11 +42,6 @@ const Home = () => {
                 </li>
                 <li>
                   <Link
-                    style={{
-                      paddingRight: 42,
-                      textDecoration: "none",
-                      color: "#3D5476",
-                    }}
                     to="/about"
                   >
                     About
@@ -59,11 +49,6 @@ const Home = () => {
                 </li>
                 <li>
                   <Link
-                    style={{
-                      paddingRight: 42,
-                      textDecoration: "none",
-                      color: "#3D5476",
-                    }}
                     to="/gallery"
                   >
                     Gallery
@@ -71,11 +56,6 @@ const Home = () => {
                 </li>
                 <li>
                   <Link
-                    style={{
-                      paddingRight: 42,
-                      textDecoration: "none",
-                      color: "#3D5476",
-                    }}
                     to="donations"
                   >
                     Donations
@@ -83,23 +63,18 @@ const Home = () => {
                 </li>
                 <li>
                   <Link
-                    style={{
-                      paddingRight: 42,
-                      textDecoration: "none",
-                      color: "#3D5476",
-                    }}
                     to="contacts"
                   >
                     Contacts
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ paddingRight: 42 }} to="login">
+                  <Link to="login">
                     <button className="one">LOGIN</button>
                   </Link>
                 </li>
                 <li>
-                  <Link style={{ paddingRight: 42 }} to="signup">
+                  <Link to="signup">
                     <button className="three">SIGNUP</button>
                   </Link>
                 </li>
@@ -151,10 +126,10 @@ const Home = () => {
         </section>
         <div className="whole">
           <div className="lines">
-            <h2 className="first">Spread the Love</h2>
-            <h3>
+            <h4 className="first">Spread the Love</h4>
+            <h2>
               Spread the Love with various Donations <br /> <br />
-            </h3>
+            </h2>
             <p>Make donations to various sectors</p>
           </div>
           <div className="all">

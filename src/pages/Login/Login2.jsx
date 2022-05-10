@@ -4,8 +4,27 @@ import { Outlet } from "react-router-dom";
 import "./Login.css";
 import { BiDonateHeart } from "react-icons/bi";
 import { FaHandsHelping } from "react-icons/fa";
+import axios from 'axios';
 
 const Login = () => {
+
+  const handleSubmit = e => {
+    e.preventDefault();
+
+    const data = {
+      email: this.email,
+      password: this.password
+    }
+
+    axios.post('http://127.0.0.1:8000/api/login/', data)
+      .then(res => {
+        console.log(res)
+      })
+      .catch(error => {
+        console.log(error)
+      })
+  }
+
   return (
     <div className="Login">
       <div className="head">
@@ -13,7 +32,7 @@ const Login = () => {
         <p>Choose Account Type</p>
       </div>
       <div className="over">
-        <form>
+        <form onSubmit = {handleSubmit}>
           <div className="icos">
             <div className="ic">
               <a href="login1">
@@ -34,11 +53,12 @@ const Login = () => {
             </div>
             <p>Kindly provide the necessary details to Access your account</p>
             <div className="col-md-4">
-              <label>Username/Email </label>
+              <label>Username </label>
               <input
                 type="email"
                 className="form-control"
-                placeholder="Enter username/email"
+                placeholder="Enter your Email"
+                onChange={e => this.username = e.target.value}
               />
             </div>
             <div className="col-md-4">
@@ -46,7 +66,8 @@ const Login = () => {
               <input
                 type="password"
                 className="form-control"
-                placeholder="Enter password"
+                placeholder="Enter the password"
+                onChange={e => this.password = e.target.value}
               />
             </div>
             <div className="col-md-4">

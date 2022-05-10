@@ -4,6 +4,7 @@ import { TextField, Grid, styled } from "@material-ui/core";
 import { isWidthDown } from "@material-ui/core/withWidth";
 //CONTEXT
 import { UserContext } from "./UserContext";
+import { Button, IconButton, } from "@material-ui/core";
 
 <h1> Donor Organisation </h1>
 export default props => {
@@ -124,6 +125,19 @@ export default props => {
        error = {!!errors["email"] }
        required fullWidth />
        </Grid> 
+       <label htmlFor="contained-button-file">
+        <Button variant="contained" color="primary" component="span">
+          Choosefile
+        </Button>
+      </label>
+      <h3>   </h3>
+      <input accept="image/*" id="icon-button-file"
+        type="file" style={{ display: 'none' }} />
+      <label htmlFor="icon-button-file">
+        <IconButton color="primary" aria-label="upload picture"
+        component="span">
+        </IconButton>
+      </label>
        <Grid item xs = { 12 } >
       <TextField placeholder ='Bank Statements'
        name = 'Feild of Support'
@@ -138,6 +152,19 @@ export default props => {
      error = {!!errors["email"] }
      required fullWidth />
      </Grid> 
+     <label htmlFor="contained-button-file">
+  <Button variant="contained" color="primary" component="span">
+    Choosefile
+  </Button>
+</label>
+<h3>   </h3>
+<input accept="image/*" id="icon-button-file"
+  type="file" style={{ display: 'none' }} />
+<label htmlFor="icon-button-file">
+  <IconButton color="primary" aria-label="upload picture"
+  component="span">
+  </IconButton>
+</label>
      <Grid item xs = { 12 } >
      <TextField placeholder = 'Donotion Range'
      name = 'Feild of Support'

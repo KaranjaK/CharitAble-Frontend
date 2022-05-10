@@ -193,7 +193,7 @@ export default props => {
                             variant='contained'
                             color='primary'
                           >
-                            Submit
+                            Register
                           </Button>
                         )}
                       </div>

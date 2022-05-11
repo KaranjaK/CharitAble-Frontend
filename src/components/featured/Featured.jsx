@@ -7,7 +7,7 @@ export const Featured = () => {
   return (
     <div className='featured'>
       <div className="top">
-        <h2 className='title'>Total Donor Funds: </h2>
+        <h2 className='title'>Total Donor Funds Approved: </h2>
         <MoreVertIcon />
       </div>
       <div className="bottom">

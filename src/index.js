@@ -7,6 +7,9 @@ import Events from './pages/Events/Events';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Login from './pages/Login/Login';
+import Gallery from './pages/Gallery/Gallery';
+import Donations from './pages/Donations/Donations';
+
 import Login2 from './pages/Login/Login2';
 import Adminhome from './pages/adminhome/Adminhome'
 
@@ -21,6 +24,9 @@ export default function App() {
  <Route path="/" element={<Home />} />
  <Route path="about" element={<About />} />
  <Route path="events" element={<Events />} />
+ <Route path="gallery" element={<Gallery/>}/>
+ <Route path="donations" element={<Donations/>}/>
+
  <Route path="contact" element={<Contact />} />
  <Route path="login" element={<Login />} />
  <Route path="login2" element={<Login2 />} />

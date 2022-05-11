@@ -9,6 +9,7 @@ import Contact from './pages/Contact/Contact';
 import Login from './pages/Login/Login';
 import Login2 from './pages/Login/Login2';
 import Adminhome from './pages/adminhome/Adminhome';
+import List from './pages/list/List'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,6 +26,7 @@ export default function App() {
  <Route path="login" element={<Login />} />
  <Route path="login2" element={<Login2 />} />
  <Route path="admin" element={<Adminhome />}/>
+ <Route path='admin/user' element={<List />} />
 
 </Routes>
 </BrowserRouter>

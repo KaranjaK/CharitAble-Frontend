@@ -53,12 +53,12 @@ const Login = () => {
             </div>
             <p>Kindly provide the necessary details to Access your account</p>
             <div className="col-md-4">
-              <label>Username </label>
+              <label>Email</label>
               <input
                 type="email"
                 className="form-control"
                 placeholder="Enter your Email"
-                onChange={e => this.username = e.target.value}
+                onChange={e => this.email = e.target.value}
               />
             </div>
             <div className="col-md-4">

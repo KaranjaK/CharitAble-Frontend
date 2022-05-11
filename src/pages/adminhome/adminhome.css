@@ -7,3 +7,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+.charts{
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+}

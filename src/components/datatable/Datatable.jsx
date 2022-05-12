@@ -2,12 +2,10 @@ import React from 'react'
 import './datatable.css'
 
 
-const Datatable = () => {
+export const Datatable = () => {
   return (
     <div className='datatable'>
       
     </div>
   )
 }
-
-export default Datatable

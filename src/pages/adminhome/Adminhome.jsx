@@ -25,5 +25,5 @@ const Adminhome = () => {
       </div>
     </div>
   )
-}
+};
 export default Adminhome

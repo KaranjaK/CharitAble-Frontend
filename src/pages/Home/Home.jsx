@@ -22,6 +22,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterSquare } from "react-icons/ai";
+
 const Home = () => {
   return (
     <div className="home">

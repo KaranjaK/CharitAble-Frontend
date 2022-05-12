@@ -11,7 +11,8 @@ import Gallery from './pages/Gallery/Gallery';
 import Donations from './pages/Donations/Donations';
 
 import Login2 from './pages/Login/Login2';
-import Adminhome from './pages/adminhome/Adminhome'
+import Adminhome from './pages/adminhome/Adminhome';
+import List from './pages/list/List'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,11 +27,11 @@ export default function App() {
  <Route path="events" element={<Events />} />
  <Route path="gallery" element={<Gallery/>}/>
  <Route path="donations" element={<Donations/>}/>
-
  <Route path="contact" element={<Contact />} />
  <Route path="login" element={<Login />} />
  <Route path="login2" element={<Login2 />} />
- <Route path="admin" element={<Adminhome/>}/>
+ <Route path="admin" element={<Adminhome />}/>
+ <Route path='admin/user' element={<List />} />
 
 </Routes>
 </BrowserRouter>

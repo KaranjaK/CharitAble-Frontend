@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./index.css";
 import Home from "./pages/Home/Home";
 import Events from "./pages/Events/Events";
 import About from "./pages/About/About";
@@ -10,7 +9,8 @@ import Login from "./pages/Login/Login";
 import Login2 from "./pages/Login/Login2";
 import Adminhome from "./pages/adminhome/Adminhome";
 import List from "./pages/list/List";
-
+import Gallery from './pages/Gallery/Gallery';
+import Donations from './pages/Donations/Donations';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
@@ -23,6 +23,8 @@ export default function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="login" element={<Login />} />
         <Route path="login2" element={<Login2 />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="donations" element={<Donations />} />
         <Route path="admin" element={<Adminhome />} />
         <Route path="admin/user" element={<List />} />
       </Routes>

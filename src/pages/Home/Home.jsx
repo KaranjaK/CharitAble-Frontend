@@ -57,14 +57,14 @@ const Home = () => {
                 </li>
                 <li>
                   <Link
-                    to="donations"
+                    to="/donations"
                   >
                     Donations
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="contacts"
+                    to="/contact"
                   >
                     Contacts
                   </Link>
@@ -209,11 +209,11 @@ const Home = () => {
               <MdStarRate className="star" />
               <MdStarRate className="star" />
               <p>
-                Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
-                Repellat <br />
-                rerum praesentium deserunt, neque <br /> deleniti quos maxime.
-                Veniam nesciunt <br /> maiores recusandae at? Rem quod non,
-                nesciunt <br /> voluptates distinctio consequatur! Rem, ex.
+                They provide value for <br /> every donation you make.
+                The <br />
+                worry of whether you have donated <br /> to the right organization or not
+                <br /> is eliminated .It is the perfect link  <br /> between donors and NGOSs 
+              
               </p>
             </div>
             <div className="blue">
@@ -223,11 +223,10 @@ const Home = () => {
               <MdStarRate className="star" />
               <MdStarRate className="star" />
               <p>
-                Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
-                Repellat <br />
-                rerum praesentium deserunt, neque <br /> deleniti quos maxime.
-                Veniam nesciunt <br /> maiores recusandae at? Rem quod non,
-                nesciunt <br /> voluptates distinctio consequatur! Rem, ex.
+              They provide value for <br /> every donation you make.
+                The <br />
+                worry of whether you have donated <br /> to the right organization or not
+                <br /> is eliminated .It is the perfect link  <br /> between donors and NGOSs 
               </p>
             </div>
             <div className="blue">
@@ -237,11 +236,10 @@ const Home = () => {
               <MdStarRate className="star" />
               <MdStarRate className="star" />
               <p>
-                Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
-                Repellat <br />
-                rerum praesentium deserunt, neque <br /> deleniti quos maxime.
-                Veniam nesciunt <br /> maiores recusandae at? Rem quod non,
-                nesciunt <br /> voluptates distinctio consequatur! Rem, ex.
+              They provide value for <br /> every donation you make.
+                The <br />
+                worry of whether you have donated <br /> to the right organization or not
+                <br /> is eliminated .It is the perfect link  <br /> between donors and NGOSs 
               </p>
             </div>
             <AiOutlineArrowRight className="iconi" />

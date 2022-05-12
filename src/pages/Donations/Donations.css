@@ -1,0 +1,31 @@
+.imagg1{
+    height: 210px;
+    width: 220px;
+   transition: all .5s;
+   margin-right: 62px;
+   margin-bottom: 62px;
+
+}
+.imagg1:hover {
+    transform: scale(1.06);
+  }
+.allimage{
+    margin-top: 40px;
+    justify-content: space-evenly;
+   margin-left: 220px;
+   margin-right: 250px;
+
+}
+.img2{
+    height: 240px;
+    width: 260px;
+  
+   transition: all .5s; 
+
+}
+.set1{
+display: flex;
+}
+.set2{
+display: flex;
+}

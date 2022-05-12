@@ -11,27 +11,27 @@
     height: 5rem;
 }
 /* Unordered List */
-ul{
+.sidebar ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .title{
+    font-family: Roboto;
     font-size: 1.2rem;
-    color: grey;
+    color: #3D5476;
     margin-top: .5rem;
     margin-left: .5rem;
 }
-li{
+.sidebar li{
     display: flex;
     align-items: center;
-    padding: .3rem;
     cursor: pointer;
 }
-li:hover{
+.sidebar li:hover{
     background-color: #ece8ff;
 }
-.icon{
+.sidebar .icon{
     color:#F15132;
 }
 span{

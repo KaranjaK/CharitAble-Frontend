@@ -1,0 +1,18 @@
+.imagg{
+    height: 220px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   transition: all .5s;
+   width: 290px;
+
+}
+.imagg:hover {
+    transform: scale(1.05);
+  }
+.allimages{
+    margin-top: 40px;
+    justify-content: space-evenly;
+   margin-left: 250px;
+   margin-right: 250px;
+
+}

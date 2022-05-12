@@ -1,0 +1,91 @@
+.head h3{
+  margin-top: 2rem;
+  font-family: Roboto;
+  font-size: 3rem;
+}
+.head p{
+  font-family: Adamina;
+  font-size: 1.2rem;
+}
+.over {
+  color: white;
+  padding-top: 5px;
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(101, 137, 179, 0.9), rgba(101, 137, 179, 0.8)), url(..//..//assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.btn {
+  background-color: #F15132;
+  color: white;
+  width: 150px;
+  margin-right: 20px;
+  border: none;
+}
+
+.head,
+.fot {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #3D5476;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.ic {
+  background-color: whitesmoke;
+  height: 10rem;
+  width: 10rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Adamina;
+}
+
+.Login .icon {
+  height: 100px;
+  width: 100px;
+  color: #F15132;
+  margin-left: 2rem;
+  transition: all .5s;
+}
+.icon:hover {
+  transform: scale(1.04);
+}
+
+a:link {
+  color: #3D5476;
+  text-decoration: none;
+}
+
+.icos {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Adamina;
+  font-size: 1.2rem;
+}
+
+.smal {
+  margin-top: 25px;
+}
+
+.sign {
+  background-color: #3D5476;
+  border: none;
+  color: white;
+  width: 120px;
+  height: 35px;
+
+}

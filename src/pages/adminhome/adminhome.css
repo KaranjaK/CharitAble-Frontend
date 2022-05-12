@@ -1,0 +1,9 @@
+.admin{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+.widgets{
+    display: flex;
+    justify-content: space-evenly;
+}

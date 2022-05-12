@@ -1,7 +1,7 @@
 import React from 'react'
 import './list.css'
-import {Sidebar} from '..//..//components/sidebar/Sidebar'
-import {Navbar} from '..//..//components/navbar/Navbar'
+import Sidebar from '..//..//components/sidebar/Sidebar'
+import Navbar from '..//..//components/navbar/Navbar'
 
 
 const List = () => {

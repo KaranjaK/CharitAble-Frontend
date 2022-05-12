@@ -31,7 +31,7 @@ const data = [
   },
 ];
 
-export const Charts = () => {
+const Charts = () => {
   return (
     <div className="chart">
       <div className="title">Donor Donations for the year 2022</div>
@@ -66,3 +66,4 @@ export const Charts = () => {
     </div>
   );
 };
+export default Charts;

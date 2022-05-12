@@ -1,3 +1,4 @@
+import React from 'react'
 import "./charts.css";
 import {
   AreaChart,
@@ -6,7 +7,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
+  // ResponsiveContainer,
 } from "recharts";
 
 const data = [

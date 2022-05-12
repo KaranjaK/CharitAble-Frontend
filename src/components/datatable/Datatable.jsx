@@ -1,9 +1,12 @@
 import React from 'react'
 import './datatable.css'
 
+
 const Datatable = () => {
   return (
-    <div className='datatable'>Datatable</div>
+    <div className='datatable'>
+      
+    </div>
   )
 }
 

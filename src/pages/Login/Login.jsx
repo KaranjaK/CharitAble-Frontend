@@ -78,7 +78,7 @@ const Login = () => {
       </div>
       <div className="fot">
         <h5>NO ACCOUNT?</h5>
-        <button type="submit" className="btn btn-primary" formAction="/signup">SIGN UP</button>
+        <button type="submit" className="btn btn-primary">SIGN UP</button>
       </div>
       <Outlet />
     </div>

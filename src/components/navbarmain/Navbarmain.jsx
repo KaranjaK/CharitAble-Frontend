@@ -52,7 +52,7 @@ const Navbarmain = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login">
+                <a class="nav-link" href="signup">
                   <button className="three">SIGNUP</button>
                 </a>
               </li>

@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterSquare } from "react-icons/ai";

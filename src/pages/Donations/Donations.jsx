@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
 import "./Donations.css";
 import char15 from "../../assets/images/char15.jpeg";
 import char16 from "../../assets/images/char16.jpeg";

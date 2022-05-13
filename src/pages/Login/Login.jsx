@@ -69,7 +69,7 @@ const Login = () => {
                 FORGOT?
               </button>{" "}
               <br />
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary" formAction="/ngo">
                 LOG IN
               </button>
             </div>
@@ -78,7 +78,7 @@ const Login = () => {
       </div>
       <div className="fot">
         <h5>NO ACCOUNT?</h5>
-        <button className="sign">SIGN UP</button>
+        <button type="submit" className="btn btn-primary" formAction="/signup">SIGN UP</button>
       </div>
       <Outlet />
     </div>

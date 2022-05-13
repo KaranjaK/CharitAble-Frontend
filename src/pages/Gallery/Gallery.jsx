@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import char5 from "../../assets/images/char5.jpeg";
 import char6 from "../../assets/images/char6.jpeg";
 import char7 from "../../assets/images/char7.jpeg";
@@ -9,7 +8,6 @@ import char10 from "../../assets/images/char10.jpeg";
 import char11 from "../../assets/images/char11.jpeg";
 import char12 from "../../assets/images/char12.jpeg";
 import charity from "../../assets/images/charity.jpg";
-import logo from "../../assets/images/logo.png";
 
 import "./Gallery.css";
 import Navbarmain from "../../components/navbarmain/Navbarmain";

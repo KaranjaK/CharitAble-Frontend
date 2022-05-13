@@ -1,0 +1,18 @@
+.navbar {
+    font-family: Adamina;
+    font-size: 1.1rem;
+    color: #3D5476;
+}
+.navbar-toggler-icon{
+    border: solid #3D5476;
+}
+
+.nav-link {
+    color: #3D5476;
+}
+
+.imag4 {
+    margin: 2rem;
+    width: 115px;
+    height: auto;
+}

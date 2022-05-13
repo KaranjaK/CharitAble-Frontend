@@ -12,75 +12,32 @@ import charity from "../../assets/images/charity.jpg";
 import logo from "../../assets/images/logo.png";
 
 import "./Gallery.css";
+import Navbarmain from "../../components/navbarmain/Navbarmain";
 
-
-const Gallery = ()=>{return(
+const Gallery = () => {
+  return (
     <div className="container-fluid">
-    <div className="enclose">
-    <div className="brand">
-      <img className="imag4" src={logo} alt="charity" />
-    </div>
-    <div>
-      <ul className="Navbar">
-        <li>
-          <Link
-            to="/"
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/about"
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/gallery"
-          >
-            Gallery
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/donations"
-          >
-            Donations
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/contact"
-          >
-            Contacts
-          </Link>
-        </li>
-      
-      </ul>
-    </div>
-  </div>
+      <Navbarmain />
 
-   
-<div className="allimages">
-   <div className="set1">
-       <img className="imagg" src={char5} alt="charity" />
-       <img className="imagg" src={char6} alt="charity" />
-       <img className="imagg" src={char7} alt="charity" />
-   </div>
-   <div className="set2">
-       <img className="imagg" src={char8} alt="charity" />
-       <img className="imagg" src={char9} alt="charity" />
-       <img className="imagg" src={char10} alt="charity" />
-</div>
-<div className="set3">
-       <img className="imagg" src={char11} alt="charity" />
-       <img className="imagg" src={char12} alt="charity" />
-       <img className="imagg" src={charity} alt="charity" />
-</div>
-</div>
-</div>
-)}
+      <div className="allimages">
+        <div className="set1">
+          <img className="imagg" src={char5} alt="charity" />
+          <img className="imagg" src={char6} alt="charity" />
+          <img className="imagg" src={char7} alt="charity" />
+        </div>
+        <div className="set2">
+          <img className="imagg" src={char8} alt="charity" />
+          <img className="imagg" src={char9} alt="charity" />
+          <img className="imagg" src={char10} alt="charity" />
+        </div>
+        <div className="set3">
+          <img className="imagg" src={char11} alt="charity" />
+          <img className="imagg" src={char12} alt="charity" />
+          <img className="imagg" src={charity} alt="charity" />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Gallery;

@@ -1,0 +1,40 @@
+.signbody {
+    display: flex;
+    height: 100vh;
+}
+
+.signleft {
+    background: linear-gradient(0deg, rgba(101, 137, 179, 0.9), rgba(101, 137, 179, 0.8)), url(..//..//assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    color: white;
+    padding-left: 150px;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signright {
+    flex: 7;
+    padding: 5rem;
+}
+.signright .title{
+    font-size: 2rem;
+}
+.imag6 {
+    height: 300px;
+    clip-path: circle();
+}
+.st1 h3{
+    font-family: Adimana;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+.reg{
+    font-family: Adimana;
+    color: #3D5476;
+    font-size: 1.5rem;
+}

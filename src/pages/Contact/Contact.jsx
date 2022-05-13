@@ -1,58 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterSquare } from "react-icons/ai";
+import Navbarmain from "../../components/navbarmain/Navbarmain";
 
 const Contact = ()=>{return(
 <div>
-<div className="enclose">
-    <div className="brand">
-      <img className="imag4" src={logo} alt="charity" />
-    </div>
-    <div>
-      <ul className="Navbar">
-        <li>
-          <Link
-            to="/"
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/about"
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/gallery"
-          >
-            Gallery
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/donations"
-          >
-            Donations
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/contact"
-          >
-            Contacts
-          </Link>
-        </li>
-      
-        
-      </ul>
-    </div>
-  </div>
+< Navbarmain />
   <div className="paragraph">
   Please write or call us with your questions or comments <br /> <br />
 

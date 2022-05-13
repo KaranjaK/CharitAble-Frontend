@@ -4,7 +4,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import {CircularProgressbar} from "react-circular-progressbar"
 import 'react-circular-progressbar/dist/styles.css'
 
-export const Featured = () => {
+const Featured = () => {
   return (
     <div className='featured'>
       <div className="top">
@@ -18,4 +18,5 @@ export const Featured = () => {
       </div>
     </div>
   )
-}
+};
+export default Featured;

@@ -9,7 +9,7 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import ListIcon from "@mui/icons-material/List";
 import Smart from "..//..//assets/images/charity2.jpg"
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -47,3 +47,4 @@ export const Navbar = () => {
     </div>
   );
 };
+export default Navbar;

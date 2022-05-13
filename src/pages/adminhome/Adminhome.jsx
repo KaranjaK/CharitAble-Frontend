@@ -1,10 +1,10 @@
 import React from 'react'
 import './adminhome.css'
-import { Navbar } from '../../components/navbar/Navbar'
-import { Sidebar } from '../../components/sidebar/Sidebar'
-import { Widget } from '../../components/widget/Widget'
-import { Featured } from '../../components/featured/Featured'
-import { Charts } from '../../components/charts/Charts'
+import  Navbar from '../../components/navbar/Navbar'
+import Sidebar from '../../components/sidebar/Sidebar'
+import Widget from '../../components/widget/Widget'
+import Featured from '../../components/featured/Featured'
+import Charts from '../../components/charts/Charts'
 
 const Adminhome = () => {
   return (
@@ -25,5 +25,5 @@ const Adminhome = () => {
       </div>
     </div>
   )
-}
+};
 export default Adminhome

@@ -4,10 +4,12 @@ import { Outlet } from "react-router-dom";
 import "./Login.css";
 import { BiDonateHeart } from "react-icons/bi";
 import { FaHandsHelping } from "react-icons/fa";
+import Navbarmain from "../../components/navbarmain/Navbarmain";
 
 const Login = () => {
   return (
     <div className="Login">
+      <Navbarmain />
       <div className="head">
         <h3>Welcome Back</h3>
         <p>Choose Account Type</p>
@@ -67,7 +69,7 @@ const Login = () => {
                 FORGOT?
               </button>{" "}
               <br />
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary" formAction="/ngo">
                 LOG IN
               </button>
             </div>
@@ -76,7 +78,7 @@ const Login = () => {
       </div>
       <div className="fot">
         <h5>NO ACCOUNT?</h5>
-        <button className="sign">SIGN UP</button>
+        <button type="submit" className="btn btn-primary" formAction="/signup">SIGN UP</button>
       </div>
       <Outlet />
     </div>

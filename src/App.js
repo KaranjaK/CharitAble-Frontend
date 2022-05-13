@@ -10,12 +10,6 @@ function App() {
 
   return(
       <div className='App'>
-        <Adminhome />
-        <BrowserRouter>
-          <Routes>
-
-          </Routes>
-        </BrowserRouter>
       </div>
 
  )

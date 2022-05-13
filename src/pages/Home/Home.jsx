@@ -1,6 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
+import { Outlet} from "react-router-dom";
 import charity from "../../assets/images/charity.jpg";
 import charity2 from "../../assets/images/charity2.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,66 +21,13 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterSquare } from "react-icons/ai";
+import Navbarmain from "../../components/navbarmain/Navbarmain";
+
 const Home = () => {
   return (
     <div className="home">
       <div className="main">
-        <nav>
-          <div className="enclose">
-            <div className="brand">
-              <img className="imag4" src={logo} alt="charity" />
-            </div>
-            <div>
-              <ul className="Navbar">
-                <li>
-                  <Link
-                    to=""
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/gallery"
-                  >
-                    Gallery
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/donations"
-                  >
-                    Donations
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/contact"
-                  >
-                    Contacts
-                  </Link>
-                </li>
-                <li>
-                  <Link to="login">
-                    <button className="one">LOGIN</button>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="signup">
-                    <button className="three">SIGNUP</button>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <Navbarmain />
         <section>
           <div className="overl">
             <h2>

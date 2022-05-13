@@ -5,7 +5,7 @@ import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import StarsIcon from '@mui/icons-material/Stars';
 
-export const Widget = ({type}) => {
+const Widget = ({type}) => {
 
   let data;
   // Test data
@@ -71,4 +71,5 @@ export const Widget = ({type}) => {
       </div>
     </div>    
   )
-}
+};
+export default Widget;
